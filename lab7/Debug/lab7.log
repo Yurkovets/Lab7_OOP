@@ -1,0 +1,25 @@
+﻿Сборка начата 09.11.2016 19:55:51.
+     1>Проект "C:\!!!!!!Dick\объектно-ориентированное программирование\lab7_new\lab7\lab7\lab7.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\lab7.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\lab7.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Animals.cpp lab7.cpp Queue.cpp
+         Queue.cpp
+         lab7.cpp
+     1>c:\!!!!!!dick\объектно-ориентированное программирование\lab7_new\lab7\lab7\template.h(12): warning C4621: не найдена постфиксная форма "operator --" для типа "Queue<double>"; используется префиксная форма
+                 c:\!!!!!!dick\объектно-ориентированное программирование\lab7_new\lab7\lab7\lab7.cpp(36): см. ссылку на создание экземпляров функции шаблон при компиляции "Queue<double> thinning<double>(Queue<double> &,int)"
+     1>c:\!!!!!!dick\объектно-ориентированное программирование\lab7_new\lab7\lab7\template.h(18): warning C4621: не найдена постфиксная форма "operator --" для типа "Queue<double>"; используется префиксная форма
+     1>c:\!!!!!!dick\объектно-ориентированное программирование\lab7_new\lab7\lab7\template.h(23): warning C4621: не найдена постфиксная форма "operator --" для типа "Queue<double>"; используется префиксная форма
+         Animals.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\!!!!!!Dick\объектно-ориентированное программирование\lab7_new\lab7\Debug\lab7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\!!!!!!Dick\объектно-ориентированное программирование\lab7_new\lab7\Debug\lab7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\!!!!!!Dick\объектно-ориентированное программирование\lab7_new\lab7\Debug\lab7.lib" /MACHINE:X86 Debug\Animals.obj
+         Debug\lab7.obj
+         Debug\Queue.obj
+         Debug\stdafx.obj
+         lab7.vcxproj -> C:\!!!!!!Dick\объектно-ориентированное программирование\lab7_new\lab7\Debug\lab7.exe
+     1>Сборка проекта "C:\!!!!!!Dick\объектно-ориентированное программирование\lab7_new\lab7\lab7\lab7.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:07.64
